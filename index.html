@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="calculator">
-        <!-- Display -->
         <div id="display" class="display"></div>
-        
-        <!-- Number Buttons -->
-        <div class="button number-button">7</div>
-        <div class="button number-button">8</div>
-        <div class="button number-button">9</div>
-        
-        <div class="button number-button">4</div>
-        <div class="button number-button">5</div>
-        <div class="button number-button">6</div>
-        
-        <div class="button number-button">1</div>
-        <div class="button number-button">2</div>
-        <div class="button number-button">3</div>
-        
-        <div class="button number-button">0</div>
-        
-        <!-- Operator Buttons -->
-        <div class="button operator-button">+</div>
-        <div class="button operator-button">-</div>
-        <div class="button operator-button">*</div>
-        <div class="button operator-button">÷</div>
-        
-        <!-- Clear and Equals Buttons -->
-        <div id="clear-button" class="button">C</div>
-        <div id="equal-button" class="button">=</div>
-      </div>
-      
+        <div class="row1">
+            <div id="clear-button" class="button">C</div>
+            <div class="button number-button"></div>
+            <div class="button number-button"></div>
+            <div class="button operator-button">÷</div>
+        </div>
+        <div class="row2">
+            <div class="button number-button">7</div>
+            <div class="button number-button">8</div>
+            <div class="button number-button">9</div>
+            <div class="button operator-button">x</div>
+        </div>
+        <div class="row3">
+            <div class="button number-button">4</div>
+            <div class="button number-button">5</div>
+            <div class="button number-button">6</div>
+            <div class="button operator-button">-</div>
+        </div>
+        <div class="row4">
+            <div class="button number-button">1</div>
+            <div class="button number-button">2</div>
+            <div class="button number-button">3</div>
+            <div class="button operator-button">+</div>
+        </div>
+        <div class="row5">
+            <div class="button number-button"></div>
+            <div class="button number-button">0</div>
+            <div class="period button">.</div>
+            <div id="equal-button" class="button">=</div>
+            
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
+
 </html>
